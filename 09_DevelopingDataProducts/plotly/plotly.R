@@ -10,6 +10,8 @@ load("courseraData.rda")
 ## Make sure that you've followed the first few set up steps
 ## https://plot.ly/ggplot2/getting-started/
 ## Particularly set_credentials_file(username=FILL IN, api_key=FILL IN)
+
+install_github("ropensci/plotly")
 library(plotly)
 
 

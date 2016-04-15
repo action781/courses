@@ -45,6 +45,9 @@ runif(1)
 ---
 ## Example
 ```
+install.packages("devtools")
+require(devtools)
+install_github('rCharts', 'ramnathv')
 require(rCharts)
 haireye = as.data.frame(HairEyeColor)
 n1 <- nPlot(Freq ~ Hair, group = 'Eye', type = 'multiBarChart',
